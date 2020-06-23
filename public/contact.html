@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>VitTheDev - Home</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <h1>VitTheDev</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">My Work</a></li>
+            <li><a href="about.html">Bio</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- section A -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- section B -->
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>busek.vit@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>+44 747 592 2308</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section C: tagline -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>Let's get in touch</h1>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright VitTheDev &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+          <a target="_blank" href="https://twitter.com/home?lang=en"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCchDjrQG8ZRJlaimleCIbuQ?view_as=subscriber"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/v%C3%ADt-busek-49a048150/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
